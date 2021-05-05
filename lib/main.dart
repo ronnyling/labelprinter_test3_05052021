@@ -13,7 +13,7 @@ import 'package:multicast_dns/multicast_dns.dart';
 
 // Custom Label Definitions
 var labelData = {
-  "62mm29mm": "62mm29mm",
+  "62mmx29mm": "62mmx29mm",
   "103mmx164mm": "103mmx164mm",
   "62mmx8m": "62mmx8m",
   'RJ2150:Continuous->58mm':
@@ -68,7 +68,7 @@ var discoveredPrinters = new Map();
 File _selectedImage;
 // 6. Label sizes selection
 List<String> labelsizes = [
-  "W62H29",
+  "62mmx29mm",
   "None",
   "103mmx164mm",
   "62mmx8m",
@@ -78,7 +78,7 @@ List<String> labelsizes = [
 // 7. Supported models
 List<String> supportedModels = ["QL-820NWB", "QL-1110NWB", "RJ-2150"];
 // 8. Selected Choices
-var selectedLabel = "W62H29";
+var selectedLabel = "62mmx29mm";
 var selectedModel = "QL-820NWB";
 
 // PRINT TEXT FORM

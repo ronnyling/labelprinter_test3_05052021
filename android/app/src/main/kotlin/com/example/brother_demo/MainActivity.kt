@@ -21,7 +21,7 @@ import io.flutter.plugins.GeneratedPluginRegistrant
 import java.io.*
 
 val printerModels = mapOf("QL-1110NWB" to PrinterInfo.Model.QL_1110NWB, "QL-820NWB" to PrinterInfo.Model.QL_820NWB, "RJ-2150" to PrinterInfo.Model.RJ_2150);
-val labelSizes = mapOf("103mmx164mm" to LabelInfo.QL1100.W103H164.ordinal, "62mmx8m" to LabelInfo.QL1100.W62.ordinal);
+val labelSizes = mapOf("62mmx29mm" to LabelInfo.QL700.W62H29.ordinal, "103mmx164mm" to LabelInfo.QL1100.W103H164.ordinal, "62mmx8m" to LabelInfo.QL1100.W62.ordinal);
 val rjCustomLabels = mapOf("Diecut->100x50" to "rj2150_diecut_100x50x5.bin", "Continuous->58mm" to "rj2150_58mm_continuous.bin");
 
 class MainActivity: FlutterActivity() {
